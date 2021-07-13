@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Image Maps</h2>
+  <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+  <img src="workspace.png" usemap="#image-map">
+
+  <map name="image-map">
+      <area target="_self" alt="phone" title="phone" href="phone.html" coords="1953,1273,1833,1023" shape="rect">
+      <area target="_self" alt="laptop" title="laptop" href="laptop.html" coords="1440,237,1598,580,1693,670,2097,490,2102,330,1944,-2,1824,47,1485,205" shape="poly">
+      <area target="_self" alt="cup" title="cup" href="cup.html" coords="1305,594,80" shape="circle">
+  </map>
+</body>
+</html>

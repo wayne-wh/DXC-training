@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myforms</title>
+</head>
+<body>
+    <form action="imap.html" target="_blank" method="POST"novalidate name="myForm" autocomplete="off">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" required autofocus tabindex="1"><br><br>
+        <label>Password</label>
+        <input type="password" name="password" disabled><br><br>
+        <input type="radio" name="male" value=""male">
+        <label>male</label>
+        <input type="radio" name="female" value="female">
+        <label>female</label><br><br>
+        <input type="checkbox" name="HTML" value="HTML">
+        <label>I know HTML</label>
+        <input type="checkbox" name="CSS" value="CSS">
+        <label>I know CSS</label>
+        <input type="checkbox" name="JavaScript" value="JavaScript">
+        <label>I know JavaScript</label><br><br>
+        <label>Select any color</label>
+        <input type="color" name="favcolor"><br><br>
+        <label>Birthday Date</label>
+        <input type="date" name="birthday"><br><br>
+        <label>Enter date before Independence</label>
+        <input type="date" name="datemax" max="1947-08-15"><br>
+        <label>Enter date after 2020</label>
+        <input type="date" name="datemin" min="2020-12-31"><br><br>
+        <label>Date & Time</label>
+        <input type="datetime" name="timedate"><br><br>
+        <label>Local date and time</label>
+        <input type="datetime-local" name="time"><br><br>
+        <label>Enter your email</label>
+        <input type="email" name="email" tabindex="2"><br><br>
+        <label>Upload a file</label>
+        <input type="file" name="myfile" multiple><br><br>
+        <label>Enter month</label>
+        <input type="month" name="mon"><br><br>
+        <label>First name</label>
+        <input type="text" name="fname" size="4" maxlength="4">
+        <input type="hidden" value="45689"><br><br>
+        <label>number</label>
+        <input type="number" name="num"><br><br>
+        <label>Range</label>
+        <input type="range" name="ran" min="0" max="100"><br><br>
+        <label>Tel Number</label>
+        <input type="tel" name="telphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-897-7895"><br><br>
+        <label>Search</label>
+        <input type="search" name="gsearch"><br><br>
+        <label>Select Time</label>
+        <input type="time" name="t"><br><br>
+        <label>Enter URl</label>
+            <input type="url" name="page"><br><br>
+            <input type="week" name="week"><br><br>
+            <input type="submit" name="submit">
+            <input type="reset" name="Reset">
+    </form>
+</body>
+</html>
